@@ -1,11 +1,11 @@
 Controller = require 'controllers/base/controller'
-HeaderView = require 'views/home/header-view'
-HomePageView = require 'views/home/home-page-view'
+MenuView = require 'views/menu/menu-view'
+PreviewView = require 'views/preview/preview-view'
 
 module.exports = class HomeController extends Controller
   beforeAction: ->
     super
-    @reuse 'header', HeaderView, region: 'header'
+    @reuse 'menu', MenuView, region: 'menu'
 
   index: ->
-    @view = new HomePageView region: 'main'
+    @view = new PreviewView region: 'preview'
