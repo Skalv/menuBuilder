@@ -1,4 +1,10 @@
 exports.config =
+  plugins:
+    uglify:
+      mangle: false
+      compress:
+        global_defs:
+          DEBUG: false
   # See http://brunch.io/#documentation for docs.
   files:
     javascripts:
