@@ -1,9 +1,8 @@
 {
-  "author": "Your Name",
-  "name": "example-app",
-  "description": "Package description",
+  "author": "Skalv Studio",
+  "name": "MenuBuilder",
+  "description": "App for build a print version of menu",
   "version": "0.0.1",
-  "homepage": "",
   "private": true,
   "repository": {
     "type": "git",
