@@ -28,4 +28,3 @@ exports.config =
 
     styles:
       'normalize.css': ['normalize.css']
-

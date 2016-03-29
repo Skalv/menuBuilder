@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "public/javascripts/app.js",
   "dependencies": {
-    "h5bp-helpers": "~0.1.0"
+    "h5bp-helpers": "~0.1.0",
+    "font-awesome": "fontawesome#~4.5.0"
   }
 }

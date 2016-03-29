@@ -1,11 +1,14 @@
-.menu-container {
-  width: 20%;
-  height: 5em;
-  position: fixed;
-  top: 0;
-  left: 0;
-  border-right: 1px solid rgb(68, 65, 74);
+$blue: #2196f3;
 
+body {
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+.menu-container {
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: $blue;
 }
 
 .preview-container {
@@ -13,4 +16,8 @@
   height: 29.7cm;
   background-color: rgb(6, 251, 126);
   margin: 0 auto;
+}
+
+.clearfix {
+  clear:both;
 }
