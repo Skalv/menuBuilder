@@ -1,0 +1,48 @@
+.Modal {
+  .ModalBackground {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .ModalContainer {
+    position: fixed;
+    background-color: #fff;
+    z-index: 20;
+    width: 1000px;
+    height: 500px;
+    top: calc(50% - 250px);
+    left: calc(50% - 500px);
+    margin: 0 auto;
+    padding: 1em;
+
+    h2 {
+      border-bottom: 1px solid black;
+      i.fa {
+        font-size: 0.8em;
+      }
+    }
+
+    .MenuComposent {
+      margin-top: 1em;
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+
+      ul {
+        display: table-cell;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+        }
+      }
+    }
+
+  }
+}

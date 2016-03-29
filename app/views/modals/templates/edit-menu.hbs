@@ -1,0 +1,30 @@
+<div class="ModalBackground"></div>
+<div class="ModalContainer">
+
+  <h2>Nom du menu ! <i class="fa fa-pencil"></i></h2>
+
+  <section class="searchDish">
+    <h4>Ajouter un plât</h4>
+    <form>
+      <legend>Cherche un plât déjà existant</legend>
+      <input list="dishList" type="search" value="" placeholder="Rechercher un plât">
+      <button class="js-addDish"><i class="fa fa-plus"></i></button>
+    </form>
+    <datalist id="dishList">
+      <option value="Compote de pomme (12€)">
+    </datalist>
+    <br>
+    <form class="js-addNewDish">
+      <legend>Créer un nouveau plât</legend>
+      <input type="text" name="name" placeholder="Nom du plât">
+      <input type="number" name="price" placeholder="Prix">
+      <button type="submit"><i class="fa fa-plus"></i></button>
+    </form>
+  </section>
+  <hr>
+  <section class="MenuComposent">
+    <ul class="starter"></ul>
+    <ul class="dish"></ul>
+    <ul class="sweet"></ul>
+  </section>
+</div>

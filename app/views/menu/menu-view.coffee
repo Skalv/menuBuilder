@@ -1,4 +1,5 @@
 View = require 'views/base/view'
+AddMenuModalView = require '../modals/edit-menu-view'
 
 module.exports = class MenuView extends View
   autoRender: true
@@ -9,4 +10,6 @@ module.exports = class MenuView extends View
 
   newMenu: (e)->
     e.preventDefault()
-    console.log "ici"
+    console.log "Add menu"
+    @subview 'modal', new AddMenuModalView
+      container: ".modalContainer"
